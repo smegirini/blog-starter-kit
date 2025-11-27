@@ -88,6 +88,8 @@ const Switch = () => {
       suppressHydrationWarning
       className={styles.switch}
       onClick={handleModeSwitch}
+      aria-label="Toggle dark/light mode"
+      title="Toggle dark/light mode"
     />
   );
 };
